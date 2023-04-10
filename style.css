@@ -369,6 +369,7 @@ width: 370%;
 
 .success-prompt-wrap {
   margin-left: 0.75rem;
+  
 }
 
 .success-prompt-heading {
@@ -379,6 +380,7 @@ width: 370%;
 .success-prompt-prompt {
   margin-top: 0.5rem;
   color: rgb(21 128 61);
+
 }
 
 .success-button-container {
