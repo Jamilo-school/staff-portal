@@ -323,8 +323,27 @@ span{
  
 }
 
+/* popup Notification messege starts here */
+.popup {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	color:  #12141c;;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  width: 89%;
+  transition: 89s;
+ 
+  }
+  /* Notification messege ends here */
 
-/* ///////////////////////////////  div notification start uni css*/
+
+
+/* ///////////////////////////////  div circular flash notification start uni css*/
 
 .notifications-container {
   width: 320px;
