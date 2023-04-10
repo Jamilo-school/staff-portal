@@ -58,7 +58,7 @@ events();
         popup.classList.add("popup");
         
         // Add the notification message to the pop up
-        var message = document.createTextNode("Having a problem updating or viewing the register on my smartphone?🧑‍⚕️We got you covered.Dowload Google Sheet app from playstore or Apple store log in and  open the register once again.Problem solve");
+        var message = document.createTextNode("Having a problem updating or viewing the register on my smartphone?🧑‍⚕️We got you covered.Download Google Sheet app from playstore or Apple store log in and  open the register once again.Problem solve");
         popup.appendChild(message);
         
         // Add the pop up to the page
