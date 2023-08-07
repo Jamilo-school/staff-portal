@@ -55,6 +55,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .container {
@@ -64,6 +65,9 @@ a {
   margin: 0 auto;
   padding: 0 3rem;
   z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  border: 3px solid red;
 }
 
 header {
@@ -377,7 +381,7 @@ span{
   border-radius: 0.375rem;
   background-color: rgb(240 253 244);
   border: solid white;
-width: 370%;
+width: 100%;
 }
 
 .succes-svg {
@@ -398,6 +402,7 @@ width: 370%;
 .success-prompt-prompt {
   margin-top: 0.5rem;
   color: rgb(21 128 61);
+  
 }
 
 .success-button-container {
@@ -408,6 +413,7 @@ width: 370%;
   margin-bottom: -0.375rem;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+  
 }
 
 .success-button-main {
